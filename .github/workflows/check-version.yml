@@ -1,9 +1,7 @@
 name: Check Claude Code Version
 
 on:
-  schedule:
-    # 每天北京时间 09:00（UTC 01:00）执行一次
-    - cron: '0 1 * * *'
+  # 自动调度已禁用；如需手动测试，可在 Actions 页面触发 workflow_dispatch
   workflow_dispatch:
 
 permissions:
